@@ -1,0 +1,149 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+
+}
+
+a{
+    padding: 20px;
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section1{
+    height: 700px;
+    background: url("/image1.jpg") ;
+    display: inline-block;
+    width: 100%;
+}
+
+#section2{
+    height: 600px;
+    background: white;
+    display: inline-block;
+    width:100%;
+}
+
+#about{
+    margin-left:10%;
+    margin-right:10%;
+    font-weight: bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+#section3{
+    height:600px;
+    background: #f2f2f2;
+    display: inline-block;
+    width: 100%;
+}
+
+#section4{
+    height: 600px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+#sec3text{
+    margin: 100px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 0;
+    color: rgb(158, 158, 158);
+    font-size: 40px;
+    font-weight: bold;
+}
+#section5{
+    height: 600px;
+    background: #f2f2f2;
+    display: inline-block;
+    width: 100%;
+    
+}
+
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+#CS_Club{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 48px;
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+}
+
+#Discord{
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 170%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 200px;
+    width: 40%;
+    border: 5px solid rgba(255, 255, 255, 0.856);
+}
+
+#officers{
+    display: flex;
+}
+
+.wrapper{
+    margin-top: 10%;
+}
+
+.wrapper h1{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.officers{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.officers .officer{
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+}
+
+.officers .officer h3{
+    font-size: 18px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
